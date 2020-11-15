@@ -1,2 +1,2 @@
-# Web-Assignment-02
-Basic Restaurant Website made with HTML &amp; CSS.
+# Module-3-Coding-Assignment
+Module 3 Coding Assignment
