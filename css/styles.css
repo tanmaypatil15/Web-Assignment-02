@@ -1,68 +1,50 @@
-* {
-    box-sizing: border-box;
-}
-
 #header-nav {
-    background-color: #AAA5A5;
-    border-radius: 0;
-    border: 0;    
-    border: solid black 3px;
-    margin-bottom: 0;
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
 }
-
-.navbar-brand {       
-    padding-left: 0;  
+#header-nav .navbar-brand a{
+  color: #ccc;
+  font-weight: bold;
 }
-
 .navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-
-.navbar-brand h1 {    
-    font-family: 'Alfa Slab One';
-    font-size: 1.5em;
-    color: black;   
-    margin-top: 0;
-    margin-left: 15px;
-    margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
 }
 
-.text-center {
-    font-family: 'Sofia';
-    font-size: 38px;
-    font-weight: bold;
-    position: relative;
-    margin-top: 55px;
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-#text {       
-    margin: 10px;
-    background-color: #AAA5A5;
-    font-family: 'Alfa Slab One';   
-    position: relative;
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
 }
 
-
-
-#nav-list {
-    margin-top: 10px;
+#header-nav span.icon-bar{
+  background: #e7e7e7;
 }
 
-#nav-list a {
-    text-align: center;
-    color: black;
-    font-family: 'Alfa Slab One';
-    font-weight: 100;
-    background-color: #AAA5A5;
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #888;
 }
 
-#nav-list a:hover {
-    background-color: #AEAE52;   
+.menu-header{
+  margin-bottom: 40px;
 }
-
-.navbar-default .navbar-collapse {
-	margin-top:0px;
-	border: 0px;
-	list-style-type: none;
-}  
-/* End Header */
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
+}
