@@ -1,2 +1,2 @@
 # Web Assignment 02
-Basic Restaurant Web Designed & developed by HTML & CSS.
+Basic Restaurant Website Designs made with HTML & CSS.
